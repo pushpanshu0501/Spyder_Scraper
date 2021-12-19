@@ -1,6 +1,6 @@
 import scrapy
 
-class KittensSpider(scrapy.Spider):
+class PrimerSpider(scrapy.Spider):
     name = "primer_scrape"
     
     def start_requests(self):
